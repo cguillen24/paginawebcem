@@ -2,7 +2,7 @@ div.content {
 	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
 	display: none;
 	float: right;
-	width: 550px; 
+	width: 60%; 
 }
 div.content a, div.navigation a {
 	text-decoration: none;
@@ -27,7 +27,8 @@ div.nav-controls {
 div.slideshow-container {
 	position: relative;
 	clear: both;
-	height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+	height: 500px;
+	width: 70%/* This should be set to be at least the height of the largest image in the slideshow */
 }
 div.loader {
 	position: absolute;
@@ -36,8 +37,8 @@ div.loader {
 	background-image: url('loader.gif');
 	background-repeat: no-repeat;
 	background-position: center;
-	width: 550px;
-	height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+	width: 50%;
+	height: 50%; /* This should be set to be at least the height of the largest image in the slideshow */
 }
 div.slideshow {
 
@@ -45,8 +46,11 @@ div.slideshow {
 div.slideshow span.image-wrapper {
 	display: block;
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 0px;
+	left: 4px;
+	width: 434px;
+	height: 580px;
+	
 }
 div.slideshow a.advance-link {
 	display: block;
@@ -61,6 +65,7 @@ div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.sli
 div.slideshow img {
 	vertical-align: middle;
 	border: 1px solid #ccc;
+	
 }
 div.download {
 	float: right;
@@ -73,9 +78,9 @@ div.caption-container {
 span.image-caption {
 	display: block;
 	position: absolute;
-	width: 550px;
-	top: 0;
-	left: 0;
+	width: 80%;
+	top: 9px;
+	left: 13px;
 }
 div.caption {
 	padding: 12px;
@@ -108,7 +113,7 @@ a.thumb {
 	border: 1px solid #ccc;
 }
 ul.thumbs li.selected a.thumb {
-	background: #000;
+	background: #09f;
 }
 a.thumb:focus {
 	outline: none;
@@ -140,11 +145,17 @@ div.pagination a:hover {
 }
 div.pagination span.current {
 	font-weight: bold;
-	background-color: #09F;
+	background-color:#09f;
 	border-color: #000;
 	color: #fff;
 }
 div.pagination span.ellipsis {
 	border: none;
 	padding: 5px 0 3px 2px;
+}
+.container {
+	width: 100%
+	max-width: 1000px
+	margin: 0
+	overflow:hidden
 }
