@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+h1
+<div style="position: relative; border: 2px solid red; width: 200px;">
+   <div style="background:  #0000ff; color: white;">Diseño Gráfico</div>
+   <div style="position: relative; top: 5px; left: 5px; 
+         background: #00a0a0; color: white;">Producción Audiovisual</div>
+   <div style="background: #ffc0c0; color: white;">Produccion fotográfica de moda y publicidad</div>
+</div>
