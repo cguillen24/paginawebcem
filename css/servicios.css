@@ -1,11 +1,35 @@
 @charset "utf-8";
 /* CSS Document */
-h1
-{
-<div style="position: relative; border: 2px solid red; width: 200px;">
-   <div style="background:  #0000ff; color: white;">Diseño Gráfico</div>
-   <div style="position: relative; top: 5px; left: 5px; 
-         background: #00a0a0; color: white;">Producción Audiovisual</div>
-   <div style="background: #ffc0c0; color: white;">Produccion fotográfica de moda y publicidad</div>
-</div>
+
+div#menu
+{with:2oopx;
+margen-top: 50px
 }
+
+div#menu ul{ 
+	list-style:none
+}
+div#menu ul li{
+	margin-top:15px;
+	font-size:18px;
+	background-color:#999;
+	width: 190px;
+	padding-top::10px;
+	padding-bottom:10px;
+	border-radius: 2px 10px 10px 2px;
+	padding-left:20px;
+	box-shadow:5px 0px 10px #939393;
+	-webkit-transition:padding-left 0.6s;
+	alignment-adjust:central;
+ 
+}
+div#menu ul li:hover{
+	padding-left:50px;
+	color:white
+}
+
+div#servicio{
+	color:#F0F;
+	font-size:36px;
+	alignment-adjust:central
+<hr></hr>
