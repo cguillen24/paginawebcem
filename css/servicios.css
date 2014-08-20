@@ -16,11 +16,12 @@ div#menu ul li{
 	width: 190px;
 	padding-top::10px;
 	padding-bottom:10px;
-	border-radius: 2px 10px 10px 2px;
+	border-radius: 5px 5px 5px 5px;
 	padding-left:20px;
 	box-shadow:5px 0px 10px #939393;
 	-webkit-transition:padding-left 0.6s;
 	alignment-adjust:central;
+	
  
 }
 div#menu ul li:hover{
@@ -29,7 +30,14 @@ div#menu ul li:hover{
 }
 
 div#servicio{
-	color:#F0F;
+	color:#F06;
 	font-size:36px;
-	alignment-adjust:central
-<hr></hr>
+}
+div#cuadro1{
+	
+   
+   background-color: #f5f5f5;
+   width: 1000px;
+   margin: 0px auto;
+}
+	
