@@ -1,6 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+.cabecera a {
+	font-family: Century Gothic;
+}
+
+.cambioColor {color:#999;
+}
+.cambioColor:hover {color: #F09;
+}
+
+
 .post-body img {
 -webkit-filter: grayscale(0%);
 border-radius: 0px;
