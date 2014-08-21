@@ -24,6 +24,14 @@ body p {
 #servicio {
 	color: #F0F;
 }
+
+.contenedor {
+width:80%;
+max-width:1000px;
+margin:0 auto;
+overflow:hidden;
+
+}
 -->
 
 div#menu
@@ -66,10 +74,4 @@ div#cuadro1{
    margin: 0px auto;
 }
 	
-.contenedor {
-width:80%;
-max-width:1000px;
-margin:0 auto;
-overflow:hidden;
 
-}
