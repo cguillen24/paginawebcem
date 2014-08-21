@@ -35,6 +35,13 @@ somos {
 	margin: 0;
 	padding: 0;
 }
+.contenedor {
+width:80%;
+max-width:1000px;
+margin:0 auto;
+overflow:hidden;
+
+}
 
 
 h1 {
