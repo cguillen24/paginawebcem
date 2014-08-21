@@ -35,14 +35,6 @@ somos {
 	margin: 0;
 	padding: 0;
 }
-.contenedor {
-width:80%;
-max-width:1000px;
-margin:0 auto;
-overflow:hidden;
-
-}
-
 
 h1 {
 	font-size: 20px;
@@ -54,7 +46,7 @@ h1 {
 }
 
 #ex3 {
-	width: 730px;
+	width: 73%;
 	height: 133px;
 	line-height:0px;
 	color: transparent;
