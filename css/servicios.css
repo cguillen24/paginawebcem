@@ -1,6 +1,30 @@
 @charset "utf-8";
 /* CSS Document */
-
+-->
+body {background-color: #333}
+.cabecera {
+	font-family: Century Gothic;
+}
+body p {
+	font-family: Century Gothic;
+}
+.video {
+	font-family: Century Gothic;
+}
+.video {
+	font-family: Century Gothic;
+}
+.video {
+	font-family: Century Gothic;
+}
+.cambioColor {color:#999;
+}
+.cambioColor:hover {color: #F09;
+}
+#servicio {
+	color: #F0F;
+}
+-->
 
 div#menu
 {with:2oopx;
