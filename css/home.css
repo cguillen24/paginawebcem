@@ -154,5 +154,23 @@ h1 {
 #header a:hover {
 	text-decoration: underline;
 }
+.contenedor {
+width:80%;
+max-width:1000px;
+margin:0 auto;
+overflow:hidden;
+
+}
+.contenedor figure {
+	margin: 0;
+	position: relative;
+}
+
+.contenedor figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
 
 
