@@ -34,7 +34,6 @@ body p {
 width:80%;
 max-width:1000px;
 margin:0 auto;
-overflow:hidden;
 
 }
 
@@ -64,8 +63,8 @@ div#menu ul li{
  
 }
 div#menu ul li:hover{
-	padding-left:50px;
-	color:white
+	padding-left: 100px;
+	color: white
 }
 
 div#servicio{
