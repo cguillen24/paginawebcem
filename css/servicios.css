@@ -1,6 +1,42 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+	background-color: #CCC
+}
+.cabecera {
+	font-family: Century Gothic;
+}
+body p {
+	font-family: Century Gothic;
+	text-align: center;
+	font-size: 18px;
+}
+.video {
+	font-family: Century Gothic;
+}
+.video {
+	font-family: Century Gothic;
+}
+.video {
+	font-family: Century Gothic;
+}
+.cambioColor {color:#999;
+}
+.cambioColor:hover {color: #F09;
+}
+#servicio {
+	color: #F0F;
+}
+
+.contenedor {
+width:80%;
+max-width:1000px;
+margin:0 auto;
+overflow:hidden;
+
+}
+
 
 div#menu
 {with:2oopx;
@@ -46,10 +82,18 @@ div#cuadro1{
 }
 
 div#cuadro2{
-	background-color: #666666;
+	background-color:  #f5f5f5;
 	width: 900px;
 	margin: 0px auto;
 	font-size: 12px;
 	font-family:´'Century Gothic'
 }
+
+div#cuadro3{
+	background-color:  #f5f5f5;
+	width: 900px;
+	margin: 0px auto;
+	font-size: 12px;
+	font-family:´'Century Gothic'
+
 	

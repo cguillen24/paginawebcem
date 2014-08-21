@@ -1,11 +1,46 @@
 @charset "utf-8";
 /* CSS Document */
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:bold);
-
+-->
+body {
+	background-color: #333
+	background-size:1500px 1500px;
+	
+}
+.cabecera {
+	font-family: Century Gothic;
+}
+.somos {
+	font-family: Caviar Dreams;
+}
+somos {
+	font-family: Century Gothic;
+}
+.somos strong {
+	font-family: Century Gothic;
+}
+.somos {
+	font-family: Century Gothic;
+}
+.pregunta {
+	font-family: Century Gothic;
+}
+.cambioColor {color:#999;
+}
+.cambioColor:hover {color: #F09;
+}
+-->
 
 * {
 	margin: 0;
 	padding: 0;
+}
+.contenedor {
+width:80%;
+max-width:1000px;
+margin:0 auto;
+overflow:hidden;
+
 }
 
 
