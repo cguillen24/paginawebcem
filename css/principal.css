@@ -1,17 +1,16 @@
 /*estilo del menu*/
-body.index{background-color: #FFF}
+
 .cambioColor {color:#999;
+
 }
 .cambioColor:hover {color: #F09;
+
 }
 .cabecera {
 	font-family: "Century Gothic";
 	text-align:center;
+	
 }
-img{
-display:block;
-margin:auto;
-}	
 
 /*end menu*/
 
@@ -19,22 +18,13 @@ margin:auto;
 
 .post-body img {
 width:70%;
-max-width:1000px;
--webkit-filter: grayscale(0%);
-border-radius: 0px;
--webkit-transition: all 0.5s ease;
--moz-transition: all 0.5s ease;
--o-transition: all 0.5s ease;
--ms-transition: all 0.5s ease;
+display:block;
+margin-left:auto;
+margin-right:auto;
 transition: all 0.5s ease;
 }
 .post-body img:hover {
- border-radius: 0%;
- -webkit-filter: grayscale(100%);
--webkit-transform: rotate(360deg);
--moz-transform: rotate(360deg);
- -o-transform: rotate(360deg);
--ms-transform: rotate(360deg);
+
 transform: rotate(360deg);
 }
 /*END estilo de la imagen usada en el menu*/
@@ -47,19 +37,24 @@ margin:0 auto;
 overflow:hidden;
 }
 /*END hacer adaptable*/
-/*estilo de contactenos*/
-body {	background-color: #333;
-	
-background-size: 100%
-}
-    *{
-	   margin:0px;
-	   padding:0px;
+
+/*Estilo de contactenos*/
+/*modifica los margenes de la tabla*/
+*{
+	margin:0px;
+	   padding:0px;   
 	   }
- form { background:#117b84;
+/*END modifica los margenes de la tabla*/
+/*fondo de contactenos*/	   
+#fondo {
+		background-color: #333;
+		
+				}
+/*tabla de formulario*/
+
+form { background:#117b84;
 	        width:610px;
-	      	
-			border-radius:3px;
+	      	border-radius:3px;
 			-moz-border-radius:5px;
 			-webkit-border-radius:5px;
 			box-shadow:inset 0 0 20px #003b46;
@@ -67,104 +62,121 @@ background-size: 100%
 		  }
 
 .areas {
-	font-family: Century Gothic;
-	color:#000
+	font-family: "Century Gothic";
+	color:#000;
+	text-align:center;
 }
 
 mensajes {
-	font-family: Century Gothic;
-}
+	font-family: "Century Gothic";
+	text-align:center;
+    
+ }
 .bottom{
-	font-family: Century Gothic;
+	font-family: "Century Gothic";
 	color: #000;
+	text-align:center;
 }
--->
-#mintshare_ft_c, #mintshare_ft_c ul {padding:0; margin:0; list-style:none; width:100px; font-family:arial, sans-serif; background:url("images/bkg-btn-grey.gif") repeat-x scroll 0 0 #EDEDED;
+mapa{
+width:60%;
+height:45%;
+	}
+/*End tabla de formulario*/
+/*modificar texto y fondo del boton*/
+#mintshare_ft_c, #mintshare_ft_c ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+	width:100%;
+	font-family:"Century Gothic";
+	background:url("images/bkg-btn-grey.gif") repeat-x scroll 0 0 #EDEDED;
 }
+/*modificar el boton: sus bordes, tamaño */
 #mintshare_ft_c {
-	width:100px;
-	height:30px;
-	border:1px solid #888;
+	width:7%;
+	height:5%;
 	position:relative;
 	z-index:100;
 	margin-left:300px;
 	padding: 0 15px;
-	-o-border-radius: 0 0 5px 5px;
-	-moz-border-radius: 0 0 5px 5px;
-	-webkit-border-radius: 0 0 5px 5px;
 	border-radius: 0 0 5px 5px;
 	position:fixed;
 	top:0;
-	z-index:1001;
 }
-
-#mintshare_ft_c div.mintshare-wrap {width:100px; height:30px; float:left; position:relative;}
-#mintshare_ft_c div.mintshare-wrap a.top-a {display:block; width:100px; height:30px; text-align:center; line-height:30px; color:#000; text-decoration:none; font-size:13px; font-weight:bold;
-background: url("images/plus.png") no-repeat scroll 0 center transparent;
-padding-left:5px;
-cursor:pointer;
+/*Desplazamiento del boton*/
+#mintshare_ft_c div.mintshare-wrap {
+	float:left;
+	position:relative;
+	}
+	/*modifcar el texto del boton*/
+#mintshare_ft_c div.mintshare-wrap a.top-a {
+	display:block; /*quede todo contenido en un solo bloque*/
+	width:100%;
+	height:30%;
+	text-align:center;
+	line-height:30px;
+	color:#000;
+	text-decoration:none;
+	font-size:15px;
+	font-weight:bold;
+    padding-left:5px;
+    cursor:pointer;
 }
-
-#mintshare_ft_c div.mintshare-wrap div.flyout {height:0; overflow:hidden; left:-1px; top:30px; width:110px; position:absolute; z-index:500;
-transition: height 1s ease-in-out;
--o-transition: height 1s ease-in-out;
--moz-transition: height 1s ease-in-out;
--webkit-transition: height 1s ease-in-out;
+/*menu desplegable del boton*/
+#mintshare_ft_c div.mintshare-wrap div.flyout {
+	height:0;
+	overflow:hidden;
+	left:-1px;
+	top:95%;/*distancia desde donde sale el menu del boton, direccion de arriba hacia abajo*/
+	width:135%; /*ancho del menu desplegable*/
+	position:absolute;
+	z-index:500;
+	transition: height 1s ease-in-out;
 }
-
-#mintshare_ft_c div.mintshare-wrap div.flyout ul.icons {background:#FFF; position:absolute; left:0; top:-500px; border:1px solid #888; border-top:0; padding-bottom:10px;padding-top:10px;
-transition: 1s ease-in-out;
--o-transition: 1s ease-in-out;
--moz-transition: 1s ease-in-out;
--webkit-transition: all 1s ease-in-out;
--o-border-radius: 0 0 5px 5px;
--icab-border-radius: 0 0 5px 5px;
--khtml-border-radius: 0 0 5px 5px;
--moz-border-radius: 0 0 5px 5px;
--webkit-border-radius: 0 0 5px 5px;
-border-radius: 0 0 5px 5px;
--o-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
--icab-box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.5);
--khtml-box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.5);
--moz-box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.5);
--webkit-box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.5);
-box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.5);
+/*menu desplegable:tiempo, sombra, punto de salida*/
+#mintshare_ft_c div.mintshare-wrap div.flyout ul.icons {
+	position:absolute;
+	top:-500px;/*se regrese en el mismo punto*/
+	border:1px solid #888;
+	transition: 1s ease-in-out;/*tiempo en el que sale*/
+	border-radius: 0 0 5px 5px;/*borde del menu desplegable*/
+	box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.5); /*sombra*/
 }
-#mintshare_ft_c div.mintshare-wrap div.flyout ul.icons li.drop-li {position:relative; width:40px; height:45px; float:left; z-index:100; margin-left:6px;}
-#mintshare_ft_c div.mintshare-wrap div.flyout ul.icons li.drop-li a.drop-a {display:block; width:100px; float:left; text-decoration:none; line-height:16px;}
-
-#mintshare_ft_c div.mintshare-wrap div.flyout ul.icons li.drop-li a.drop-a img {display:block; border:0; position:absolute; left:5px; top:5px; z-index:-1; opacity:1; filter: alpha(opacity=100);margin-right:5px;
+/*imagenes del menu desplegable*/
+#mintshare_ft_c div.mintshare-wrap div.flyout ul.icons li.drop-li {
+	position:relative;
+	 width:40px;
+	 height:45px;
+	 float:left;
+	 z-index:100;
+	 margin-left:6px;
+	 }
+	 /*imagenes de menu*/
+#mintshare_ft_c div.mintshare-wrap div.flyout ul.icons li.drop-li a.drop-a img {
+	display:block;
+	border:0;
+	position:absolute;
+	left:5px;
+	top:5px;
+	z-index:-1;
+	opacity:1;
+	filter: alpha(opacity=100);
+	margin-right:5px;
 transition: 0.4s ease-in-out;
--o-transition: 0.4s ease-in-out;
--moz-transition: 0.4s ease-in-out;
--webkit-transition: all 0.4s ease-in-out;
 }
-#mintshare_ft_c div.mintshare-wrap div.flyout ul.icons li.drop-li a b {display:block; width:100px; height:60px; padding-top:20px; text-align:center; cursor:pointer; color:#000; font-size:14px; opacity:0; filter: alpha(opacity=0);
-transition: 0.4s ease-in-out;
--o-transition: 0.4s ease-in-out;
--moz-transition: 0.4s ease-in-out;
--webkit-transition: all 0.4s ease-in-out;
-}
+/*cursor sobre la imagen*/
+#mintshare_ft_c div.mintshare-wrap:hover div.flyout ul.icons li.drop-li:hover > a img {
+	opacity:0.5;
+	filter: alpha(opacity=50);
+	 }
 
-#mintshare_ft_c div.mintshare-wrap:hover div.flyout ul.icons li.drop-li:hover > a img {opacity:0.5; filter: alpha(opacity=50);}
-#mintshare_ft_c div.mintshare-wrap:hover div.flyout ul.icons li.drop-li:hover > a b {opacity:1; filter: alpha(opacity=100);}
 
-#mintshare_ft_c div.mintshare-wrap:hover div.flyout {height:522px;}
+#mintshare_ft_c div.mintshare-wrap:hover div.flyout {height:400%;} /*altura de visibilidad del menu desplegable*/
 
-#mintshare_ft_c div.mintshare-wrap:hover div.flyout:hover {height:522px;}
+#mintshare_ft_c div.mintshare-wrap:hover div.flyout ul.icons {top:5%;}/*distancia de separacion del menu desplegable y el boton (de arriba hacia abajo)*/
 
-#mintshare_ft_c div.mintshare-wrap:hover div.flyout ul.icons {top:1px;}
-
-#mintshare_ft_c div.mintshare-wrap a:hover {direction:ltr;}
-#mintshare_ft_c div.mintshare-wrap a:hover div.flyout {height:522px;}
-#mintshare_ft_c div.mintshare-wrap a:hover div.flyout ul.icons {top:0;}
-#mintshare_ft_c div.mintshare-wrap div.flyout ul.icons li.drop-li a:hover img {filter: alpha(opacity=50);}
-#mintshare_ft_c div.mintshare-wrap div.flyout ul.icons li.drop-li a:hover b {filter: alpha(opacity=100);}
-
-#mintshare_ft_c table {border-collapse:collapse; position:absolute; left:0; top:0; width:0; height:0; margin-bottom:-1px;}
-
+/*estilo usado en las letras que te direccionan a youtube*/
 #mintshare_ft_c .get_mintshare {
 font-size:10px;
 margin-left:3px;
 }
-/*end contactenos*/
