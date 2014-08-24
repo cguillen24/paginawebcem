@@ -1,20 +1,17 @@
 /*estilo del menu*/
- body {
-	background-color: #FFF;
-	
-			}
-
+body.index{background-color: #FFF}
 .cambioColor {color:#999;
-
 }
 .cambioColor:hover {color: #F09;
-
 }
 .cabecera {
 	font-family: "Century Gothic";
 	text-align:center;
-	
 }
+img{
+display:block;
+margin:auto;
+}	
 
 /*end menu*/
 
@@ -51,18 +48,15 @@ overflow:hidden;
 }
 /*END hacer adaptable*/
 /*estilo de contactenos*/
-body {background: #ffffff;
-background-size:1500px 1500px
+body {	background-color: #333;
+	
+background-size: 100%
 }
     *{
 	   margin:0px;
 	   padding:0px;
 	   }
-	   body {
-	background-color: #333;
-	
-			}
-	  form { background:#117b84;
+ form { background:#117b84;
 	        width:610px;
 	      	
 			border-radius:3px;
