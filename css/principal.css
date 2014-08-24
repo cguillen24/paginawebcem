@@ -1,4 +1,8 @@
 /*estilo del menu*/
+ body {
+	background-color: #FFF;
+	
+			}
 
 .cambioColor {color:#999;
 
@@ -160,4 +164,4 @@ transition: 0.4s ease-in-out;
 font-size:10px;
 margin-left:3px;
 }
-
+/*end contactenos*/
