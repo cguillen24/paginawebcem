@@ -33,10 +33,7 @@ background-size:1500px 1500px
 mensajes {
 	font-family: Century Gothic;
 }
-.cambioColor {color:#999;
-}
-.cambioColor:hover {color: #F09;
-}
+
 .bottom{
 	font-family: Century Gothic;
 	color: #000;
