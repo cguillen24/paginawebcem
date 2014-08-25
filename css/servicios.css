@@ -42,12 +42,15 @@ margin:0 auto;
 div#menu
 {with:2oopx;
 margen-top: 50px
+text-align:center;
 }
 
 div#menu ul{ 
 	list-style:none
+	text-align:center;
 }
 div#menu ul li{
+	
 	margin-top:25px;
 	font-size:18px;
 	background-color:#999;
@@ -69,9 +72,17 @@ div#menu ul li:hover{
 }
 
 div#servicio{
+	text-align:center;
 	color:#F39;
 	font-size:36px;
-	style="font-family:'Century Gothic';
+	font-family:'Century Gothic';
+	
+}
+div#servicio1{
+	text-align:center;
+	color:#000;
+	font-size:18px;
+	font-family:'Century Gothic';
 	
 }
 div#cuadro1{
