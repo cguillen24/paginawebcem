@@ -39,13 +39,12 @@ margin:0 auto;
 div#menu
 {with:2oopx;
 margen-top: 50px
-text-align:center;
+text-align:justify;
 }
 
 div#menu ul{ 
 	list-style:none;
 	text-align:justify;
-	font-family:'Century Gothic'
 }
 div#menu ul li{
 	
@@ -60,8 +59,8 @@ div#menu ul li{
 	padding-top:10px;
 	box-shadow:5px 0px 10px #939393;
 	-webkit-transition:padding-left 0.6s;
-	alignment-adjust:central;
-	
+	alignment-adjust:justify;
+	color:#333
  
 }
 div#menu ul li:hover{
@@ -95,10 +94,11 @@ div#cuadro1{
 div#cuadro2{
 	background-color:  #f5f5f5;
 	width: 70%;
-	 height:80%;
+	height:80%;
 	margin: 0px auto;
-	font-size: 12px;
-	font-family:´'Century Gothic'
+	font-size: 18px;
+	font-family:´'Century Gothic';
+	text-align:center;
 }
 
 div#cuadro3{
@@ -107,13 +107,3 @@ div#cuadro3{
 	margin: 0px auto;
 	font-size: 10px;
 	font-family:´'Century Gothic'
-#cuadro1 center #menu ul ul ul li {
-	text-align: left;
-}
-
-#menu ul ul ul li {
-	text-align: justify;
-}
-#leter {
-	font-family: "Century Gothic";
-}
