@@ -197,6 +197,7 @@ a {
 	color: #888;
 	text-decoration: none;
 }
+/*estilos del titulo PORTAFOLIO*/
 h2 {
     border-bottom: 3px inset #F09;
     color: #F09;
@@ -213,6 +214,8 @@ h2 {
 	}
 
 }
+/*estilos del portafolio*/
+/*estilo el general*/
 .contnedor {
 	padding: 20px 20px 100px 20px;
 	max-width: 1200px;
@@ -220,13 +223,13 @@ h2 {
 	list-style: none;
 	text-align: center;
 }
-
+/*estilos del tamaño, alineado, espaciado de las secciones*/
 .contnedor li {
 	display: inline-block;
-	width: 363px;
+	width: 370px;
 	margin: 0;
 	padding: 20px;
-	text-align: left;
+	text-align: center;
 	position: relative;
 }
 
@@ -235,23 +238,23 @@ h2 {
 	margin: 0;
 	position: relative;
 }
-
+/*estilos del portafolio*/
 .contnedor figure img {
 	max-width: 100%;
 	display: block;
 	position: relative;
 }
 
-
+/*estilos del cuadro que se despliega con la informacion*/
 .contnedor figcaption {
 	position: absolute;
 	top: 0;
 	left: 0;
 	padding: 20px;
 	background: #999;
-	color: #FFF;
+	
 }
-
+/*estilos de la descripcion de cada seccion*/
 
 figcaption span {
     color: #FFF;
@@ -259,29 +262,30 @@ figcaption span {
     font-size: 13px;
     margin: 12px 0;
 }
-
+/*estilos de el cuadro de visitar y la linea horizontal*/
 .contnedor figcaption h3 {
-    border-bottom: 1px solid #777777;
-    color: #FFFFFF;
+	/*color de la linea horizontal*/
+    border-bottom: 1px solid #777;
+	/*color del nombre de cada seccion*/
+    color: #fff;
+
     margin: 0;
     padding: 0 0 5px;
 }
 
-
+/*estilos del cuadro de visitar*/
 .contnedor figcaption a {
 	text-align: center;
 	padding: 5px 10px;
 	border-radius: 2px;
 	display: inline-block;
-	background: #31a7c4;
+	background: #C09;
 	color: #fff;
 
 }
 
-
 /* Caption animación*/
-
-
+/*estilos del cuadro que se despliega para mostrar la informacion de las secciones*/
 .caption li {
 	-webkit-perspective: 1800px;
 	-moz-perspective: 1800px;
@@ -290,23 +294,23 @@ figcaption span {
 	-moz-perspective-origin: 0 0%;
 	perspective-origin: 0 0%;
 }
-
+/*estilos del movimiento y corte de las imagenes cuando el cuadro se despliega*/
 .caption figure {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
-
+/*estilos del control de movimiento de las secciones*/
 .caption figure > div {
 	overflow: hidden;
 }
-
+/*estilos para que la imagen se despliegue*/
 .caption figure img {
 	-webkit-transition: -webkit-transform 0.3s ease-out;
 	-moz-transition: -moz-transform 0.3s ease-out;
 	transition: transform 0.3s ease-out;
 }
-
+/*estilos para se oculte el cuadro desplegable de la informacion*/
 .caption figure:hover img
 {
 	-webkit-transform: translateX(23%);
@@ -315,8 +319,6 @@ figcaption span {
 	transform: translateX(23%);
 	cursor: pointer;
 }
-
-
 
 .caption figcaption {
 	height: 100%;
@@ -348,17 +350,20 @@ figcaption span {
 }
 
 
-
+/*estilos del cuadrito visitar al poner el cursor*/
 .caption figcaption a {
 	position: absolute;
 	bottom: 20px;
 	right: 20px;
+	
+	/*color de la palabra visitar*/
+	color:#FFF;
 }
 
 
-
+/*color del cuadro visitar al poner el cursor*/
 .btn_hover:hover {
-	background: #3fc7e8;
+	background: #F6F;
     -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;
