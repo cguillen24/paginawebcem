@@ -130,7 +130,7 @@ div.slideshow {
 div.slideshow span.image-wrapper {
 	display: block;
 	position: absolute;
-	top: 0px;
+	top: 0;
 	left: 4px;
 	width: 434px;
 	height: 580px;
@@ -240,10 +240,10 @@ div.pagination span.ellipsis {
 	padding: 5px 0 3px 2px;
 }
 .container {
-	width: 100%
-	max-width: 1000px
-	margin: 0
-	overflow:hidden
+	width: 100%;
+	max-width: 1000px;
+	margin: 0;
+	overflow:hidden;
 }
 /*hacer adaptable*/
 
