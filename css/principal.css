@@ -174,6 +174,8 @@ height:45%;
 	opacity:1;
 	margin-right:5px;
 transition: 0.4s ease-in-out;
+
+
 }
 /*cursor sobre la imagen*/
 #mintshare_ft_c div.mintshare-wrap:hover div.flyout ul.icons li.drop-li:hover > a img {
@@ -392,5 +394,262 @@ figcaption span {
 		width: 100%;
 		min-width: 300px;
 	}
+/* estilos de galeria, ilustracion,afiches,marca y portada */
+
+/* estilo del menu */
+.cambioColor1 {color: #FFF;
 }
+.cambioColor1:hover {color: #306;
+}
+
+html, body {
+	margin:0;
+	padding:0;
+	color: #09F;
+}
+/* fuente, alineado */
+body{
+	width:100%;
+	text-align: center;
+	font-family: "century Gothic", Verdana, Helvetica, Arial, sans-serif;
+	background-color: #09F;
+	color: #09F;
+	font-size: 79%;
+}
+a{
+	color: #09F;
+	text-decoration: none;
+}
+a:focus, a:hover, a:active {
+	text-decoration: underline;
+	color: #09F;
+}
+p, li {
+	line-height: 1.8em;
+	color: #09F;
+	
+}
+h1, h2 {
+	font-family: "century Gothic";
+	margin: 0 0 10px 0;
+	letter-spacing:-1px;
+	color: #09F;
+}
+h1 {
+	padding: 0;
+	font-size: 3em;
+	color: #09F;
+}
+h2 {
+	padding-top: 10px;
+	font-size:2em;
+	color: #09F;
+}
+pre {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	overflow-x: auto;
+	color: #09F;
+}
+div#page {
+	width: 70%;
+	background-color: #fff;
+	margin: 0 auto;
+	text-align: left;
+	color: #09F;
+	border-style: none solid solid;
+	border-width: medium 1px 1px;
+}
+div#container {
+	padding: 20px;
+	color: #09F;
+}
+div#ads {
+	clear: both;
+	padding: 12px 0 12px 50px;
+	color: #09F;
+}
+div#footer {
+	clear: both;
+	color: #09F;
+	margin: 0 auto;
+	padding: 20px 0 40px;
+	text-align: center;
+}
+
+
+div.content {
+	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+	display: none;
+	float: right;
+	width: 60%; 
+}
+div.content a, div.navigation a {
+	text-decoration: none;
+	color: #09F;
+}
+div.content a:focus, div.content a:hover, div.content a:active {
+	text-decoration: underline;
+}
+div.controls {
+	margin-top: 5px;
+	height: 23px;
+}
+div.controls a {
+	padding: 5px;
+}
+div.ss-controls {
+	float: left;
+}
+div.nav-controls {
+	float: right;
+}
+div.slideshow-container {
+	position: relative;
+	clear: both;
+	height: 500px;
+	width: 70%
+	/* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.loader {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50%;
+	height: 50%; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.slideshow {
+
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	width: 434px;
+	height: 580px;
+	
+}
+div.slideshow a.advance-link {
+	display: block;
+	width: 550px;
+	height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+	line-height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+	text-align: center;
+}
+div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow img {
+	vertical-align: middle;
+	border: 1px solid #ccc;
+	
+}
+div.download {
+	float: right;
+}
+div.caption-container {
+	position: relative;
+	clear: left;
+	height: 75px;
+}
+span.image-caption {
+	opacity: 1;
+	display: block;
+	position: absolute;
+	width: 80%;
+	top: 9px;
+	left: 13px;
+}
+div.caption {
+	padding: 12px;
+}
+div.image-title {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+div.image-desc {
+	line-height: 1.3em;
+	padding-top: 12px;
+}
+div.navigation {
+	/* The navigation style is set using jQuery so that the javascript specific styles won't be applied unless javascript is enabled. */
+}
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+ul.thumbs li {
+	float: left;
+	padding: 0;
+	margin: 5px 10px 5px 0;
+	list-style: none;
+}
+a.thumb {
+	padding: 2px;
+	display: block;
+	border: 1px solid #ccc;
+}
+ul.thumbs li.selected a.thumb {
+	background: #09f;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: none;
+	display: block;
+}
+div.pagination {
+	clear: both;
+}
+div.navigation div.top {
+	margin-bottom: 12px;
+	height: 11px;
+}
+div.navigation div.bottom {
+	margin-top: 12px;
+}
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #ccc;
+}
+div.pagination a:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+div.pagination span.current {
+	font-weight: bold;
+	background-color:#09f;
+	border-color: #000;
+	color: #fff;
+}
+div.pagination span.ellipsis {
+	border: none;
+	padding: 5px 0 3px 2px;
+}
+.container {
+	width: 100%
+	max-width: 1000px
+	margin: 0
+	overflow:hidden
+}
+/*hacer adaptable*/
+
+.contenedor {
+width:100%;
+max-width:1000px;
+margin:0 auto;
+overflow:hidden;
+}
+
+
 
