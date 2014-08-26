@@ -192,7 +192,112 @@ transition: 0.4s ease-in-out;
 font-size:10px;
 margin-left:3px;
 }
+/*HOME: QUIENES SOMOS*/
 
+
+/*modifica el texto dentro del cuadro, tipo de letra */
+.somos strong {
+	font-family: "Century Gothic";
+}
+
+/*modificar estilo usado en home*/
+#ex3 {
+	display:block;
+	width: 75%;
+	height: 50%;
+	line-height:0px;
+	color: transparent;
+	font-size: 12px;
+	font-family: "Century Gothic";
+	font-weight:300%;
+	text-transform: uppercase;
+	margin-left:10%; /*centar el contenido del home*/
+}
+
+#ex3:hover {
+	line-height: 15px;
+	text-align:right; /*alinear el texto del primer slide*/
+	color:#666;
+	}
+
+#ex3 img{ /*modificar imagen que tenemos en home*/
+	width:40%;
+	height:20%;
+	float: left;
+	margin: 20px 30px;
+}
+#wrapper { /*texto de fondo 1*/
+  position: relative;
+  text-align: center; /*texto 'NOSOTROS' se dirige al centro*/
+  font-family: "Century Gothic";
+  font-size:11px;
+  margin: 0 auto;
+  width: 100%;/*distancia de ancho de fondo de texto*/
+  padding: 7em 0; /*distancia largo de fondo de texto que se desplaza*/
+  border-radius: 4px;
+  box-shadow: inset 0 -1px 0  hsla(0,0%,0%,.2), 0 21px 8px -12px rgba(0,0,0,.2);
+  }
+  /*efecto de la palabra 'NOSOTROS'*/
+#wrapper p {  
+font-size:6em; 
+ margin:auto; 
+  color: #CF0; 
+   text-transform: uppercase;
+     letter-spacing: 0.03em;
+	 }
+	/*efecto de cursor sobre la palabra 'NOSOTROS'*/ 
+#wrapper:hover p {  
+color: #099;
+ }
+
+
+ #wrapper2 { /*texto de fondo 2*/
+  position: relative;
+  text-align: center; /*texto 'MISION' se dirige al centro*/
+  font-family: "Century Gothic";
+  margin: 0 auto;
+  width: 88%; /*distancia de ancho de fondo de texto*/
+  padding: 7em 0; /*distancia largo de fondo de texto que se desplaza*/
+  border-radius: 4px;
+  box-shadow: inset 0 -1px 0  hsla(0,0%,0%,.2), 0 21px 8px -12px rgba(0,0,0,.2);
+  }
+ /*efecto de la palabra 'MISION'*/
+#wrapper2 p {  
+font-size:6em; 
+ margin: 0; 
+  color: #CF6; 
+   text-transform: uppercase;
+     letter-spacing: 0.03em;
+	   }
+/*efecto de cursor sobre la palabra 'MISION'*/ 		 
+#wrapper2:hover p { 
+ color: #099;
+			} 
+			
+/*texto de fondo 3*/
+			
+  #wrapper3 {
+  position: relative;
+  text-align: center; /*texto 'VISION' se dirige al centro*/
+  font-family: "Century Gothic";
+  margin: 0 auto;
+  width: 88%; /*distancia de ancho de fondo de texto*/
+  padding: 7em 0; /*distancia largo de fondo de texto que se desplaza*/
+  border-radius: 4px;
+  box-shadow: inset 0 -1px 0  hsla(0,0%,0%,.2), 0 21px 8px -12px rgba(0,0,0,.2);
+  }
+ /*efecto de la palabra 'VISION'*/
+#wrapper3 p {  
+font-size:6em; 
+ margin: 0; 
+  color: #9C0; 
+   text-transform: uppercase;
+     letter-spacing: 0.03em;
+	}
+	/*efecto de cursor sobre la palabra 'VISION'*/ 
+#wrapper3:hover p {  color: #099;
+  }
+/*END ESTILO HOME*/
 /*estilos del portafolio*/
 *, *:after, *:before { 
 
