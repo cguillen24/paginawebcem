@@ -41,7 +41,7 @@ body.index{background-color: #FFF}
 -ms-transform: rotate(360deg);
 transform: rotate(360deg);
 }
-/*END estilo de la imagen usada en el menu*/
+
 /*hacer adaptable*/
 
 .contenedor {
@@ -52,13 +52,12 @@ overflow:hidden;
 }
 /*END hacer adaptable*/
 
-/*Estilo de contactenos*/
-/*modifica los margenes de la tabla*/
+/*ESTILO CONTACTENOS:modifica los margenes de la tabla*/
 *{
 	margin:0px;
 	   padding:0px;   
 	   }
-/*END modifica los margenes de la tabla*/
+
 /*fondo de contactenos*/	   
 #fondo {
 		background-color: #333;
@@ -93,7 +92,6 @@ mapa{
 width:60%;
 height:45%;
 	}
-/*End tabla de formulario*/
 /*modificar texto y fondo del boton*/
 #mintshare_ft_c, #mintshare_ft_c ul {
 	padding:0;
@@ -412,7 +410,6 @@ figcaption span {
 	color: transparent;
 	font-size: 12px;
 	font-family: "Century Gothic";
-	font-weight:300%;
 	text-transform: uppercase;
 	margin-left:10%; /*centar el contenido del home*/
 }
