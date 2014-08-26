@@ -471,7 +471,9 @@ font-size:6em;
   }
 /*END ESTILO HOME*/
 /*ESTILO SERVICIOS*/
-
+#center {
+text-align:center;
+}
 body p {
 	font-family: Century Gothic;
 }
