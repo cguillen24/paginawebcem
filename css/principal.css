@@ -9,36 +9,20 @@
 .cabecera {
 	font-family: "Century Gothic";
 	text-align:center;
-	text-decoration:none
+	
 }
-
-/*end menu*/
 
 /*estilo de la imagen usada en el menu*/
-img.displayed {
-	display: block;
-	margin-left: auto;
-	margin-right: auto }
 
 .post-body img {
-width:60%;
--webkit-filter: grayscale(0%);
-border-radius: 0px;
--webkit-transition: all 0.5s ease;
--moz-transition: all 0.5s ease;
--o-transition: all 0.5s ease;
--ms-transition: all 0.5s ease;
+width:70%;
+display:block;
+margin-left:auto;
+margin-right:auto;
 transition: all 0.5s ease;
 }
-/*estilo del color de fondo del index general*/
-body.index{background-color: #FFF}
 .post-body img:hover {
- border-radius: 0%;
- -webkit-filter: grayscale(100%);
--webkit-transform: rotate(360deg);
--moz-transform: rotate(360deg);
- -o-transform: rotate(360deg);
--ms-transform: rotate(360deg);
+
 transform: rotate(360deg);
 }
 
@@ -50,7 +34,6 @@ max-width:1000px;
 margin:0 auto;
 overflow:hidden;
 }
-/*END hacer adaptable*/
 
 /*ESTILO CONTACTENOS:modifica los margenes de la tabla*/
 *{
@@ -68,8 +51,8 @@ overflow:hidden;
 form { background:#117b84;
 	        width:610px;
 	      	border-radius:3px;
-		box-shadow:inset 0 0 20px #003b46;
-		margin:100px auto;
+			box-shadow:inset 0 0 20px #003b46;
+			margin:100px auto;
 		  }
 
 .areas {
@@ -92,6 +75,7 @@ mapa{
 width:60%;
 height:45%;
 	}
+
 /*modificar texto y fondo del boton*/
 #mintshare_ft_c, #mintshare_ft_c ul {
 	padding:0;
@@ -170,15 +154,14 @@ height:45%;
 	top:5px;
 	z-index:-1;
 	opacity:1;
+	
 	margin-right:5px;
 transition: 0.4s ease-in-out;
-
-
 }
 /*cursor sobre la imagen*/
 #mintshare_ft_c div.mintshare-wrap:hover div.flyout ul.icons li.drop-li:hover > a img {
 	opacity:0.5;
-		 }
+	 }
 
 
 #mintshare_ft_c div.mintshare-wrap:hover div.flyout {height:400%;} /*altura de visibilidad del menu desplegable*/
