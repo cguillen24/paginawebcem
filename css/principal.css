@@ -475,7 +475,7 @@ font-size:6em;
 text-align:center;
 }
 body p {
-	font-family: Century Gothic;
+	font-family: 'Century Gothic';
 }
 
 #servicio {
@@ -506,7 +506,7 @@ div#menu ul li{
 	padding-left:20px;
 	box-shadow:5px 0px 10px #939393;
 	-webkit-transition:padding-left 0.6s;
-	alignment-adjust:central;
+	alignment-adjust:center;
 	
  
 }
