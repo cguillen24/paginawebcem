@@ -10,9 +10,7 @@
 	font-family: "Century Gothic";
 	text-align:center;
 	
-}
-index{
-	background-color:#FFF}
+
 /*estilo de la imagen usada en el menu*/
 
 .post-body img {
@@ -181,7 +179,7 @@ body {
     width:100%;
 	font-family: "Arial", sans-serif;
 	background-size:100%;
-	background: #333;
+	background: #FFF;
 }
 
 a {
