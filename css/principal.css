@@ -178,8 +178,8 @@ body, html {
 
 body {
     width:100%;
-	font-family: Arial, sans-serif;
-	background-size:100%
+	font-family: "Arial", sans-serif;
+	background-size:100%;
 	background: #333;
 }
 
@@ -487,8 +487,8 @@ body p {
 }
 
 div#menu
-{with:2oopx;
-margen-top: 50px
+{with:200px;
+
 }
 
 div#menu ul{ 
@@ -499,7 +499,7 @@ div#menu ul li{
 	font-size:18px;
 	background-color:#999;
 	width: 190px;
-	padding-top::10px;
+	padding-top:10px;
 	padding-bottom:10px;
 	border-radius: 5px 5px 5px 5px;
 	padding-left:20px;
