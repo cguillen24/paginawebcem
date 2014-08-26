@@ -4,13 +4,10 @@
 }
 .cambioColor:hover {color: #306;
 }
-html, body {
+
+body{
 	margin:0;
 	padding:0;
-	color: #09F;
-	
-}
-body{
 	width:100%;
 	text-align: center;
 	font-family: "century Gothic", Verdana, Helvetica, Arial, sans-serif;
