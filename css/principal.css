@@ -9,7 +9,7 @@
 .cabecera {
 	font-family: "Century Gothic";
 	text-align:center;
-	
+}
 
 /*estilo de la imagen usada en el menu*/
 
@@ -179,7 +179,7 @@ body {
     width:100%;
 	font-family: "Arial", sans-serif;
 	background-size:100%;
-	background: #FFF;
+background: #333;
 }
 
 a {
