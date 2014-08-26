@@ -1,0 +1,520 @@
+/*estilo del menu*/
+
+.cambioColor {color:#999;
+
+}
+.cambioColor:hover {color: #F09;
+
+}
+.cabecera {
+	font-family: "Century Gothic";
+	text-align:center;
+	
+}
+
+/*estilo de la imagen usada en el menu*/
+
+.post-body img {
+width:70%;
+display:block;
+margin-left:auto;
+margin-right:auto;
+transition: all 0.5s ease;
+}
+.post-body img:hover {
+
+transform: rotate(360deg);
+}
+
+/*hacer adaptable*/
+
+.contenedor {
+width:80%;
+max-width:1000px;
+margin:0 auto;
+overflow:hidden;
+}
+
+/*ESTILO CONTACTENOS:modifica los margenes de la tabla*/
+*{
+	margin:0px;
+	   padding:0px;   
+	   }
+
+/*fondo de contactenos*/	   
+#fondo {
+		background-color: #333;
+		
+				}
+/*tabla de formulario*/
+
+form { background:#117b84;
+	        width:610px;
+	      	border-radius:3px;
+			box-shadow:inset 0 0 20px #003b46;
+			margin:100px auto;
+		  }
+
+.areas {
+	font-family: "Century Gothic";
+	color:#000;
+	text-align:center;
+}
+
+mensajes {
+	font-family: "Century Gothic";
+	text-align:center;
+    
+ }
+.bottom{
+	font-family: "Century Gothic";
+	color: #000;
+	text-align:center;
+}
+mapa{
+width:60%;
+height:45%;
+	}
+
+/*modificar texto y fondo del boton*/
+#mintshare_ft_c, #mintshare_ft_c ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+	width:100%;
+	font-family:"Century Gothic";
+	background:url("images/bkg-btn-grey.gif") repeat-x scroll 0 0 #EDEDED;
+}
+/*modificar el boton: sus bordes, tamaño */
+#mintshare_ft_c {
+	width:7%;
+	height:5%;
+	position:relative;
+	z-index:100;
+	margin-left:300px;
+	padding: 0 15px;
+	border-radius: 0 0 5px 5px;
+	position:fixed;
+	top:0;
+}
+/*Desplazamiento del boton*/
+#mintshare_ft_c div.mintshare-wrap {
+	float:left;
+	position:relative;
+	}
+	/*modifcar el texto del boton*/
+#mintshare_ft_c div.mintshare-wrap a.top-a {
+	display:block; /*quede todo contenido en un solo bloque*/
+	width:100%;
+	height:30%;
+	text-align:center;
+	line-height:30px;
+	color:#000;
+	text-decoration:none;
+	font-size:15px;
+	font-weight:bold;
+    padding-left:5px;
+    cursor:pointer;
+}
+/*menu desplegable del boton*/
+#mintshare_ft_c div.mintshare-wrap div.flyout {
+	height:0;
+	overflow:hidden;
+	left:-1px;
+	top:90%;/*distancia desde donde sale el menu del boton, direccion de arriba hacia abajo*/
+	width:135%; /*ancho del menu desplegable*/
+	position:absolute;
+	z-index:500;
+	transition: height 1s ease-in-out;
+}
+/*menu desplegable:tiempo, sombra, punto de salida*/
+#mintshare_ft_c div.mintshare-wrap div.flyout ul.icons {
+	position:absolute;
+	top:-500px;/*se regrese en el mismo punto*/
+	border:1px solid #888;
+	transition: 1s ease-in-out;/*tiempo en el que sale*/
+	border-radius: 0 0 5px 5px;/*borde del menu desplegable*/
+	box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.5); /*sombra*/
+}
+/*fondo del menu desplegable*/
+#mintshare_ft_c div.mintshare-wrap div.flyout ul.icons li.drop-li {
+	position:relative;
+	 width:40px;
+	 height:70px;
+	 float:left;
+	 z-index:100;
+	 
+	 }
+	 /*imagenes de menu*/
+#mintshare_ft_c div.mintshare-wrap div.flyout ul.icons li.drop-li a.drop-a img {
+	display:block;
+	border:0;
+	top:1px;
+	z-index:-1;
+	opacity:1;
+transition: 0.4s ease-in-out;
+}
+/*cursor sobre la imagen*/
+#mintshare_ft_c div.mintshare-wrap:hover div.flyout ul.icons li.drop-li:hover > a img {
+	opacity:0.5;
+		 }
+
+
+#mintshare_ft_c div.mintshare-wrap:hover div.flyout {height:400%;} /*altura de visibilidad del menu desplegable*/
+
+#mintshare_ft_c div.mintshare-wrap:hover div.flyout ul.icons {top:6%;}/*distancia de separacion del menu desplegable y el boton (de arriba hacia abajo)*/
+
+/*estilos del portafolio*/
+*, *:after, *:before { 
+
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+body, html { 
+	font-size: 100%; 
+	padding: 0; margin: 0;
+}
+
+body {
+    width:100%;
+	font-family: "Arial", sans-serif;
+	background-size:100%;
+	background: #333;
+}
+
+a {
+	color: #888;
+	text-decoration: none;
+}
+h2 {
+    border-bottom: 3px inset #F09;
+    color: #F09;
+    font-family: "century Gothic";
+    font-size: 43px;
+    padding-bottom: 13px;
+    text-align: center;
+
+}
+@media screen and (max-width: 25em) {
+
+	.np-icon span {
+		display: none;
+	}
+
+}
+.contnedor {
+	padding: 20px 20px 100px 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.contnedor li {
+	display: inline-block;
+	width: 363px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+
+.contnedor figure {
+	margin: 0;
+	position: relative;
+}
+
+.contnedor figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+
+.contnedor figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #999;
+	color: #FFF;
+}
+
+
+figcaption span {
+    color: #FFF;
+    display: block;
+    font-size: 13px;
+    margin: 12px 0;
+}
+
+.contnedor figcaption h3 {
+    border-bottom: 1px solid #777777;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0 0 5px;
+}
+
+
+.contnedor figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #31a7c4;
+	color: #fff;
+
+}
+
+
+/* Caption animación*/
+
+
+.caption li {
+	-webkit-perspective: 1800px;
+	-moz-perspective: 1800px;
+	perspective: 1800px;
+	-webkit-perspective-origin: 0 50%;
+	-moz-perspective-origin: 0 0%;
+	perspective-origin: 0 0%;
+}
+
+.caption figure {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.caption figure > div {
+	overflow: hidden;
+}
+
+.caption figure img {
+	-webkit-transition: -webkit-transform 0.3s ease-out;
+	-moz-transition: -moz-transform 0.3s ease-out;
+	transition: transform 0.3s ease-out;
+}
+
+.caption figure:hover img
+{
+	-webkit-transform: translateX(23%);
+	-moz-transform: translateX(23%);
+	-ms-transform: translateX(23%);
+	transform: translateX(23%);
+	cursor: pointer;
+}
+
+
+
+.caption figcaption {
+	height: 100%;
+	width: 50%;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotateY(-90deg);
+	-moz-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+
+.caption figure:hover figcaption{
+	opacity: 1;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+
+
+.caption figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+
+
+.btn_hover:hover {
+	background: #3fc7e8;
+    -webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+}
+
+
+
+/*  responsive */
+@media screen and (max-width: 31.5em) {
+	.contnedor {
+		padding: 10px 10px 50px 10px;
+	}
+	.contnedor li {
+		width: 100%;
+		min-width: 300px;}
+}
+	
+/*HOME: QUIENES SOMOS*/
+
+
+/*modifica el texto dentro del cuadro, tipo de letra */
+.somos strong {
+	font-family: "Century Gothic";
+}
+
+/*modificar estilo usado en home*/
+#ex3 {
+	display:block;
+	width: 75%;
+	height: 50%;
+	line-height:0px;
+	color: transparent;
+	font-size: 12px;
+	font-family: "Century Gothic";
+	text-transform: uppercase;
+	margin-left:10%; /*centar el contenido del home*/
+}
+
+#ex3:hover {
+	line-height: 15px;
+	text-align:right; /*alinear el texto del primer slide*/
+	color:#666;
+	}
+
+#ex3 img{ /*modificar imagen que tenemos en home*/
+	width:40%;
+	height:20%;
+	float: left;
+	margin: 20px 10px;
+}
+#wrapper { /*texto de fondo 1*/
+  position: relative;
+  text-align: center; /*texto 'NOSOTROS' se dirige al centro*/
+  font-family: "Century Gothic";
+  font-size:11px;
+  margin: 0 auto;
+  width: 100%;/*distancia de ancho de fondo de texto*/
+  padding: 7em 0; /*distancia largo de fondo de texto que se desplaza*/
+  border-radius: 4px;
+  box-shadow: inset 0 -1px 0  hsla(0,0%,0%,.2), 0 21px 8px -12px rgba(0,0,0,.2);
+  }
+  /*efecto de la palabra 'NOSOTROS'*/
+#wrapper p {  
+font-size:6em; 
+ margin:auto; 
+  color: #CF0; 
+   text-transform: uppercase;
+     letter-spacing: 0.03em;
+	 }
+	/*efecto de cursor sobre la palabra 'NOSOTROS'*/ 
+#wrapper:hover p {  
+color: #099;
+ }
+
+
+ #wrapper2 { /*texto de fondo 2*/
+  position: relative;
+  text-align: left; /*texto 'MISION' se dirige al centro*/
+  font-family: "Century Gothic";
+  margin: 0 auto;
+  width: 88%; /*distancia de ancho de fondo de texto*/
+  padding: 6em 0; /*distancia largo de fondo de texto que se desplaza*/
+  border-radius: 4px;
+  box-shadow: inset 0 -1px 0  hsla(0,0%,0%,.2), 0 21px 8px -12px rgba(0,0,0,.2);
+  }
+ /*efecto de la palabra 'MISION'*/
+#wrapper2 p {  
+font-size:6em; 
+ margin: 0; 
+  color: #CF6; 
+   text-transform: uppercase;
+     letter-spacing: 0.03em;
+	   }
+/*efecto de cursor sobre la palabra 'MISION'*/ 		 
+#wrapper2:hover p { 
+ color: #099;
+			} 
+			
+/*texto de fondo 3*/
+			
+  #wrapper3 {
+  position: relative;
+  text-align: center; /*texto 'VISION' se dirige al centro*/
+  font-family: "Century Gothic";
+  margin: 0 auto;
+  width: 88%; /*distancia de ancho de fondo de texto*/
+  padding: 7em 0; /*distancia largo de fondo de texto que se desplaza*/
+  border-radius: 4px;
+  box-shadow: inset 0 -1px 0  hsla(0,0%,0%,.2), 0 21px 8px -12px rgba(0,0,0,.2);
+  }
+ /*efecto de la palabra 'VISION'*/
+#wrapper3 p {  
+font-size:6em; 
+ margin: 0; 
+  color: #9C0; 
+   text-transform: uppercase;
+     letter-spacing: 0.03em;
+	}
+	/*efecto de cursor sobre la palabra 'VISION'*/ 
+#wrapper3:hover p {  color: #099;
+  }
+/*END ESTILO HOME*/
+/*ESTILO SERVICIOS*/
+
+body p {
+	font-family: Century Gothic;
+}
+
+#servicio {
+	color: #F0F;
+	text-align:center;
+}
+#servicio1 {
+	color: #FFF;
+	text-align:center;
+}
+
+div#menu
+{width:200px;
+
+}
+
+div#menu ul{ 
+	list-style:none
+}
+div#menu ul li{
+	margin-top:25px;
+	font-size:18px;
+	background-color:#999;
+	width: 190px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius: 5px 5px 5px 5px;
+	padding-left:20px;
+	box-shadow:5px 0px 10px #939393;
+	-webkit-transition:padding-left 0.6s;
+	alignment-adjust:central;
+	
+ 
+}
+div#menu ul li:hover{
+	padding-left:50px;
+	color:white
+}
+
+div#servicio{
+	color:#F06;
+	font-size:36px;
+}
