@@ -219,7 +219,7 @@ a {
 h2 {
     border-bottom: 3px inset #F09;
     color: #F09;
-    font-family: "century Gothic"
+    font-family: "century Gothic";
     font-size: 43px;
     padding-bottom: 13px;
     text-align: center;
@@ -387,9 +387,10 @@ figcaption span {
 
 /*  responsive */
 @media screen and (max-width: 31.5em) {
-	
+	.contnedor {
+		padding: 10px 10px 50px 10px;}
 	.contnedor li {
-		padding: 10px 10px 50px 10px;
 		width: 100%;
-		min-width: 300px;
-	}
+		min-width: 300px;}
+}
+		
