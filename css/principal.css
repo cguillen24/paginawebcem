@@ -387,10 +387,9 @@ figcaption span {
 
 /*  responsive */
 @media screen and (max-width: 31.5em) {
-	.contnedor {
-		padding: 10px 10px 50px 10px;
-	}
+	
 	.contnedor li {
+		padding: 10px 10px 50px 10px;
 		width: 100%;
 		min-width: 300px;
 	}
