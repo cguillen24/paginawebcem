@@ -164,13 +164,6 @@ transition: 0.4s ease-in-out;
 
 #mintshare_ft_c div.mintshare-wrap:hover div.flyout ul.icons {top:6%;}/*distancia de separacion del menu desplegable y el boton (de arriba hacia abajo)*/
 
-/*estilo usado en las letras que te direccionan a youtube*/
-#mintshare_ft_c .get_mintshare {
-font-size:10px;
-margin-left:5px;
-text-align:right;
-}
-
 /*estilos del portafolio*/
 *, *:after, *:before { 
 
