@@ -9,7 +9,7 @@
 .cabecera {
 	font-family: "Century Gothic";
 	text-align:center;
-	text-decoration:none
+	text-decoration:none;
 }
 
 /*end menu*/
@@ -18,7 +18,8 @@
 img.displayed {
 	display: block;
 	margin-left: auto;
-	margin-right: auto }
+	margin-right: auto;
+	 }
 
 .post-body img {
 width:60%;
@@ -314,7 +315,7 @@ body {
     width:100%;
 	font-family: Arial, sans-serif;
 	background: #333;
-	background-size:100%
+	background-size:100%;
 }
 
 a {
@@ -324,7 +325,7 @@ a {
 h2 {
     border-bottom: 3px inset #F09;
     color: #F09;
-    font-family: "century Gothic"
+    font-family: "Century Gothic";
     font-size: 43px;
     padding-bottom: 13px;
     text-align: center;
@@ -336,7 +337,6 @@ h2 {
 		display: none;
 	}
 
-}
 .contnedor {
 	padding: 20px 20px 100px 20px;
 	max-width: 1200px;
