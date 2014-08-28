@@ -320,7 +320,7 @@ figcaption span {
 	cursor: pointer;
 }
 
-.caption figcaption {
+.caption figcaption { /*ancho y alto de el cuadro desplegable de la informacion de la imagen*/
 	height: 100%;
 	width: 50%;
 	opacity: 0;
@@ -493,7 +493,7 @@ font-size:6em;
 text-align:center;
 }
 body p {
-	font-family: Century Gothic;
+	font-family: Century Gothic; /*SE CAMBIA LA TIPOGRAFIA DE TODO EL CONTENIDO */
 }
 
 #servicio {
@@ -532,11 +532,14 @@ div#menu ul li{
  
 }
 div#menu ul li:hover{
-	padding-left:50px;
-	color:white
+	padding-left:50px;/*espacio de desplazamiento de letras en los cuadros de servicios*/
+	color:white; /*cambio de color de letras en los cuadros de servicios cuando pase el boton*/
 }
 
 div#servicio{
 	color:#F06;
 	font-size:36px;
 }
+.fuente {
+	font-family: "Century Gothic"; /*cambiar el tipo de letra usado en SERVICIOS (cuadros con efecto)*/
+	}
