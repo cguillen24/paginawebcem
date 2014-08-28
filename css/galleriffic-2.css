@@ -1,9 +1,10 @@
 /* estilos de galeria, ilustracion,afiches,marca y portada */
+/* estilo de Regresar al Portafolio */
 .cambioColor {color: #FFF;
 }
 .cambioColor:hover {color: #306;
 }
-
+/* tipo de fuente, color de fondo, tamaño de fuente y alineado de todo el cuerpo */
 body{
 	margin:0;
 	padding:0;
@@ -11,45 +12,26 @@ body{
 	text-align: center;
 	font-family: "century Gothic";
 	background-color: #09F;
-	font-size: 79%;
+	font-size: 0.8em;
 }
+/* estilos de la etiquetas de enlace <a> */
 a{
 	color: #09F;
 	text-decoration: none;
 }
-a:focus, a:hover, a:active {
-	text-decoration: underline;
-	color: #09F;
-}
-p, li {
-	line-height: 1.8em;
-	color: #09F;
-	
-}
-h1, h2 {
+/* estilos del titulo de cada seccion: GALERIA, ILUSTRACION, MARCA, AFICHE, PORTADA */
+h2 {
 	font-family: "century Gothic";
 	margin: 0 0 10px 0;
 	letter-spacing:-1px;
-	color: #09F;
-}
-h1 {
-	padding: 0;
-	font-size: 3em;
-	color: #09F;
-}
-h2 {
 	padding-top: 10px;
 	font-size:2em;
 	color: #09F;
+	
 }
-pre {
-	font-size: 1.2em;
-	line-height: 1.2em;
-	overflow-x: auto;
-	color: #09F;
-}
+/* estilos de la galeria */
 div#page {
-	width: 70%;
+	width: 80%;
 	background-color: #fff;
 	margin: 0 auto;
 	text-align: left;
@@ -57,15 +39,12 @@ div#page {
 	border-style: none solid solid;
 	border-width: medium 1px 1px;
 }
+/* espaciado y color de fuente del titulo y descripcion de cada foto */
 div#container {
-	padding: 20px;
+	padding: 40px;
 	color: #09F;
 }
-div#ads {
-	clear: both;
-	padding: 12px 0 12px 50px;
-	color: #09F;
-}
+
 div#footer {
 	clear: both;
 	color: #09F;
@@ -81,10 +60,12 @@ div.content {
 	float: right;
 	width: 60%; 
 }
+/* color del texto numero de pagina, siguiente y anterior cuando no estan seleccionadas  */
 div.content a, div.navigation a {
 	text-decoration: none;
 	color: #09F;
 }
+/* permite que salga el subrayado en pausar presentacion, reproducir presentacion,foto anterior y siguiente foto */
 div.content a:focus, div.content a:hover, div.content a:active {
 	text-decoration: underline;
 }
@@ -92,12 +73,15 @@ div.controls {
 	margin-top: 5px;
 	height: 23px;
 }
+/* espaciado entre las palabras foto anterior y siguiente foto */
 div.controls a {
 	padding: 5px;
 }
+/* permite la alineacion de las etiquetas <a> */
 div.ss-controls {
 	float: left;
 }
+/* alinea a la derecha los controles de navegacion: foto anterior y siguiente foto */
 div.nav-controls {
 	float: right;
 }
@@ -120,6 +104,7 @@ div.loader {
 	height: 50%; /* This should be set to be at least the height of the largest image in the slideshow */
 }
 div.slideshow {
+	width:100%;
 
 }
 div.slideshow span.image-wrapper {
@@ -127,10 +112,10 @@ div.slideshow span.image-wrapper {
 	position: absolute;
 	top: 0;
 	left: 4px;
-	width: 434px;
-	height: 580px;
-	
+	width: 100%;
+	height: 100%;
 }
+/* posicion de la imagen grande y su alineacion */
 div.slideshow a.advance-link {
 	display: block;
 	width: 530px;
@@ -138,22 +123,19 @@ div.slideshow a.advance-link {
 	line-height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
 	text-align: center;
 }
-div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
-	text-decoration: none;
-}
+
+/* posicion de la imagen grande, tamaño y color de borde */
 div.slideshow img {
 	vertical-align: middle;
 	border: 1px solid #ccc;
 	
 }
-div.download {
-	float: right;
-}
+/* tamaño de altura del contenedor de la descripcion de la foto */
 div.caption-container {
 	position: relative;
-	clear: left;
 	height: 75px;
 }
+/* posicion de la descripcion y del titulo de las imagenes */
 span.image-caption {
 	opacity: 1;
 	display: block;
@@ -162,19 +144,20 @@ span.image-caption {
 	top: 9px;
 	left: 13px;
 }
-div.caption {
-	padding: 12px;
-}
+/* estilo y tamaño del titulo de imagen */
 div.image-title {
 	font-weight: bold;
 	font-size: 1.4em;
+	width: 100%;
 }
+/* estilo y tamaño de la descripcion de la imagen */
 div.image-desc {
-	line-height: 1.3em;
-	padding-top: 12px;
+	font-size: 1em;
+	padding-top: 5px;
 	width: 100%;
 }
 div.navigation {
+	width:100%;
 	/* The navigation style is set using jQuery so that the javascript specific styles won't be applied unless javascript is enabled. */
 }
 ul.thumbs {
@@ -182,26 +165,30 @@ ul.thumbs {
 	margin: 0;
 	padding: 0;
 }
+/* alineacion de las imagenes pequeñas */
 ul.thumbs li {
 	float: left;
 	padding: 0;
 	margin: 5px 10px 5px 0;
 	list-style: none;
+	width:29%;
 }
+/* tamaño y color del borde la imagen pequeña */
 a.thumb {
 	padding: 5px;
 	display: block;
 	border: 1px solid #ccc;
+	width: 87%;
 }
+/* color del cuadro de fondo al seleccionar una imagen pequeña */
 ul.thumbs li.selected a.thumb {
 	background: #09f;
 }
-a.thumb:focus {
-	outline: none;
-}
+
 ul.thumbs img {
 	border: none;
 	display: block;
+	width:100%;
 }
 div.pagination {
 	clear: both;
@@ -220,10 +207,12 @@ div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
 	padding: 4px 7px 2px 7px;
 	border: 1px solid #ccc;
 }
+/* color del cuadro de numero de pagina, de las palabras siguiente y anterior al poner el cursor */
 div.pagination a:hover {
 	background-color: #eee;
 	text-decoration: none;
 }
+/* estilo del numero de pagina donde se encuentra ubicado */
 div.pagination span.current {
 	font-weight: bold;
 	background-color:#09f;
